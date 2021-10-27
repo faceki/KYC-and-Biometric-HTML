@@ -11,7 +11,15 @@ The Repo is a collections of our demo HTML and Javascript connected to our API, 
  - Or register FREE faceki package Liviliness passive biometric authentication 🔗 https://faceki.com/biometric-authentication-prices/
  - Once register, you can login to the dashboard 🔗 https://faceki.com/backend/account/dashboard 
  - From user dashboard >> Left side menu >> Click Integration >> Integraton >> Copy your Your Faceki Client Id. 
- - Download the repo, then edit the js/faceki-startup.js and add your token and upload it into your host. 
+ - Download the repo, then edit the js/faceki-startup.js and add your token and EMAIL id registerd in faceki panel and upload it into your host. 
+
+
+<br><code>function getToken(client_id, email, type){ </br></code>
+<br><code>    debugger; </br></code>
+ <br><code>   data = JSON.stringify({ </br></code>
+ <br><code>       client_id:"af7d4790-04a9-11ec-aecf-1dca4****", </br></code>
+  <br><code>      email:"email@email.com", </br></code>
+
  
  
  
